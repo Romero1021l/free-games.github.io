@@ -1,0 +1,52 @@
+.principal{
+    display: flex;
+    flex-direction: column;  /* Alinea verticalmente */
+  align-items: center;     /* Centra horizontalmente (opcional) */
+  justify-content: center; /* Centra verticalmente (opcional si quieres centrado total) */
+    padding: 0px;
+    text-align: center;
+    background-image: url("./abstract_flow_background_0407.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.login{
+    display: flex;
+    width: 300px;
+    height: 380px;
+    align-items: center; 
+    flex-direction: column;
+      backdrop-filter: blur(15px);
+    border-radius: 30px;
+   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4); /* Sombra suave */
+}
+
+.login h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.input{
+    width: 200px;
+    height: 25px;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.219);
+    border: none;
+    color: white;
+}
+.input::placeholder{
+    color: rgba(248, 248, 248, 0.788);
+}
+
+.login button{
+    border-radius: 100px;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.219);
+    border: none;
+    color: rgba(248, 248, 248, 0.788);
+}

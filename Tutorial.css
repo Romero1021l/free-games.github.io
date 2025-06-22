@@ -1,0 +1,46 @@
+body {
+  background-color: #181818;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.tutorial-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.steps-grid {
+  display: flex;
+    flex-direction: column;  /* Alinea verticalmente */
+  align-items: center;     /* Centra horizontalmente (opcional) */
+  justify-content: center;
+}
+
+.step {
+  background-color: #252525;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: #646363 0px 0px 15px;
+}
+
+.step img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.video-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.video-container video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 8px;
+}
+
+.tutorial-container h1{
+  align-self: center;
+}

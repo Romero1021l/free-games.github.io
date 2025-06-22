@@ -1,0 +1,88 @@
+.library-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+/* Contenedor de las tarjetas */
+.juegos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* Centra horizontalmente */
+  gap: 20px;                 /* Espacio entre tarjetas */
+  padding: 20px;
+}
+
+/* Tarjeta de juego */
+.juego-card {
+  background: #1c1c1c;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.juego-card:hover {
+  transform: scale(1.03);
+}
+
+.juego-card img {
+  max-width: 100%;
+  min-height: 210px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.Game-name{
+    margin-top: 15px;
+    margin-bottom: -10px;
+
+}
+
+.Category{
+    background-color: rgba(255, 17, 0, 0.616);
+    border-radius: 5px;
+    width: 150px;
+    align-self: center;
+    flex-direction: column;  /* Alinea verticalmente */
+  align-items: center;     /* Centra horizontalmente (opcional) */
+  justify-content: center;
+    display: flex;
+    padding: 1px;
+   height: 30px;
+}
+
+.return-button {
+  position: fixed;
+  top: 20px;        /* Distancia desde la parte superior */
+  left: 20px;       /* O usa right: 20px si lo quieres en la esquina derecha */
+  z-index: 1000;    /* Asegura que esté por encima de otros elementos */
+  background-color: rgba(104, 104, 104, 0.6);
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.return-button:hover {
+  transform: scale(1.1);
+}
+
